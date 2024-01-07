@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: beige;
+    color: brown;
+    font-family: serif;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    background-color: beige;
+    color: brown;
+    font-family: serif;
+    list-style-position: inside;
+}
+
+.div2 {
+    display: inline-table;
+    text-align: left; 
+    border: 2px solid brown;
+    background-color: lightgoldenrodyellow;
+    width: 250px;
+    padding: 10px;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+ol {
+  display: inline-table;
+  text-align: left; 
+  border: 2px solid brown;
+  background-color: lightgoldenrodyellow;
+  width: 400px;
+  padding: 10px;
+}
+
+img {
+  border: 2px solid brown;
+}
